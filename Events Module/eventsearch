@@ -1,0 +1,19 @@
+// contactsearch = zoho.crm.searchRecords("Contacts","(Beneficiary_NIN:equals:" + nin + ")",1,200,Map(),"zcrm_60030238188_1");
+// contact search using any fields
+	//	info contactsearch1;
+	//	contactsearch1 = zoho.crm.searchRecords("Events","(What_Id:equals:" + firstname + ")",1,200,Map(),"zcrm_60030238188_1");
+	//	info "contact1" + contactsearch1;
+	contactId = contactsearch.getJson("id");
+	//	criteria = "(Contact_Id:equals:" + contactId + ")";
+	// 	eventSearch = zoho.crm.searchRecords("Events","(Who_Id:equals:" + contactId + ")",1,200,Map(),"zcrm_60030238188_1");
+ // event search using contact ID fetched from contact search
+	// 	info "eventsearch" + eventSearch;
+	// 	title = eventSearch.getJson("Event_Title");
+	// 	info "title" + title;
+	// 	eventid = eventSearch.getJson("Booking_ID");
+	// 	info "eventid" + eventid;
+	// 	eventstarttime = eventSearch.getJson("Start_DateTime");
+	// 	info "eventstarttime" + eventstarttime;
+	// 	eventtime = eventstarttime.getPrefix("T");
+	// 	format = eventtime.toString("d-MM-YYYY");
+	// 	info "formatdate" + format;
